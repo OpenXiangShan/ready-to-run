@@ -16,9 +16,11 @@ This repo may be abandoned in feature, as we are trying to provide prebuilt bina
 * `linux.bin`
   * Simple Linux boot-up test.
   * OpenSBI v1.4 + Linux 6.1.83 + print Hello
-  * Built accodring to [XiangShan-doc](https://xiangshan-doc.readthedocs.io/zh-cn/latest/tools/linux-kernel-for-xs/)
-* `linux-0xa0000.bin`
+  * ~~Built accodring to [XiangShan-doc](https://xiangshan-doc.readthedocs.io/zh-cn/latest/tools/linux-kernel-for-xs/)~~
+    * The document has not updated for OpenSBI yet.
+* ~~`linux-0xa0000.bin`~~
   * Simple Linux boot-up test for [Checkpoint](https://xiangshan-doc.readthedocs.io/zh-cn/latest/tools/simpoint/).
+  * Not Updated yet.
 * `coremark-2-iteration.bin`
 * `microbench.bin`
 * `copy_and_run.bin`
