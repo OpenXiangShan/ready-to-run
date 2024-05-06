@@ -6,7 +6,7 @@ else
   rm riscv64-spike-so
   cd $SPIKE_HOME
   cd difftest
-  make -j `nproc`
+  make CPU=XIANGSHAN -j `nproc`
   cp build/riscv64-spike-so ${ready_to_run_home}
   cd ${ready_to_run_home}
   echo ${ready_to_run_home} "has been updated"
