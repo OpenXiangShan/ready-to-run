@@ -7,11 +7,11 @@ else
   rm riscv64-nemu-interpreter-dual-so
   cd $NEMU_HOME
   make clean
-  make riscv64-xs-ref_defconfig
+  make riscv64-matrix-xs-ref_defconfig
   make -j
   cp build/riscv64-nemu-interpreter-so ${ready_to_run_home}
   make clean
-  make riscv64-dual-xs-ref_defconfig
+  make riscv64-matrix-xs-dual-ref_defconfig
   make -j
   cp build/riscv64-nemu-interpreter-so ${ready_to_run_home}/riscv64-nemu-interpreter-dual-so
   cd ${ready_to_run_home}
