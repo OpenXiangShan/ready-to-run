@@ -11,7 +11,7 @@ centos7_nemu_fixup() {
     # dependencies for the first time.
     pushd /tmp/nemu && \
     export NEMU_HOME=/tmp/nemu && \
-    make riscv64-xs-ref_defconfig && \
+    make riscv64-xs-kmhv2-ref_defconfig && \
     (make -j `nproc` || true) && \
     popd
 }
