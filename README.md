@@ -6,10 +6,11 @@ This repo may be abandoned in feature, as we are trying to provide prebuilt bina
 
 ## Prebuilt difftest reference libaries
 The single/dual-core NEMU REF and debug libraries use the
-`riscv64-xs-kmhv2-*` configs from NEMU master. They are from
-[v2026.10.r10](https://github.com/OpenXiangShan/NEMU/releases/tag/v2026.10.r10)
-(`50a9a8e975ab1a20682ef2ecd9da39298e634c8a`).
-The legacy bitmap library is unchanged; this release has no bitmap artifact.
+`riscv64-xs-kmhv2-*` configs from NEMU master. They were built at
+[`de1cb67b1a1d1c946ac0e985b869e04470d1719e`](https://github.com/OpenXiangShan/NEMU/commit/de1cb67b1a1d1c946ac0e985b869e04470d1719e)
+by [GitHub Actions run 42984217703](https://github.com/OpenXiangShan/NEMU/actions/runs/42984217703)
+in `ghcr.io/openxiangshan/xs-env:ubuntu-20.04`.
+The legacy bitmap library is unchanged; this build has no bitmap artifact.
 
 * `riscv64-nemu-interpreter-so`
   * NEMU difftest reference library
